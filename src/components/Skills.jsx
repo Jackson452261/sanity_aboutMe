@@ -12,7 +12,7 @@ const Skills = () => {
       <div className="section-title text-center mb-8" data-aos="fade-up">
         <h2 className="text-3xl font-bold">Skills</h2>
         <p className="text-gray-600 mt-2">
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+         
         </p>
       </div>
 

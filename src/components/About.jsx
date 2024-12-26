@@ -43,7 +43,7 @@ const About = () => {
       
       <img src={Travel} className="absolute w-full" alt="Travel background" />
       <div className="p-10 lg:pt-48 container mx-auto relative">
-        <section className="bg-green-800 rounded-lg shadow-2xl flex items-center p-10">
+        <section className="bg-zinc-400 rounded-lg shadow-2xl flex items-center p-10">
           {author.authorImage && (
             <img
               className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"
@@ -53,8 +53,9 @@ const About = () => {
           )}
           <div className="text-lg flex flex-col justify-center">
             <h2 className="text-5xl text-green-300">
-              Hi 我是{" "}
-              <span className="text-red-600">{author.name}</span>
+              Hi~歡迎來到我網站 {" "}
+              <span className="text-red-600"></span>
+              
             </h2>
             {author.bio && (
               <div className="prose lg:prose-xl text-white">
