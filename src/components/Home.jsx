@@ -1,4 +1,5 @@
-import image from "../assets/travel.jpg";
+ 
+import FooterLogo from "./FooterLogo";
 import Cards from "./HoverDev/Cards";
 import { Carousel } from "./HoverDev/Carousel";
  
@@ -11,7 +12,7 @@ const Home = () => {
     <div className="relative overflow-hidden">
       {/* 背景圖片 */}
       <img
-        src={image}
+        src=""
         alt="travel"
         className="absolute object-cover w-full h-full top-0 left-0 "
       />
@@ -43,6 +44,7 @@ const Home = () => {
  
      <Carousel />
      <Cards /> 
+     <FooterLogo />
     </div>
   );
 };
