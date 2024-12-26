@@ -45,10 +45,10 @@ const SinglePost = () => {
            
         </div>
       </div>
-      <img  src={SinglePost.mainImage.asset.url} alt={SinglePost.title}  className="w-full object-cover rounded-t h-[300px] sm:h-[100px] md:h-[500px] lg:h-[600px]"
+      <img  src={SinglePost.mainImage.asset.url} alt={SinglePost.title}  className="w-full object-cover rounded-t h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px]"
       style={{height: "400px"}} />
     </header>
-    <div className='px-20 lg:px-40 py-12'>
+    <div className='px-20 lg:px-40 py-12 bg-neutral-200'>
       <BlockContent  blocks={SinglePost.body} projectId="ctcz4jd3" dataset="production"/>
     </div>
    </article>
