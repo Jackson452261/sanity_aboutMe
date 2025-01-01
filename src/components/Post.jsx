@@ -27,17 +27,19 @@ const Post = () => {
   return (
     <div>
       <section className="bg-slate-700 p-12">
-        <h1>Blog post page</h1>
-        <h2>Welcome</h2>
+         
         <div>
           {postData &&
             postData.map((post) => (
               <article key={post.slug.current}>
                 <Link to={`/post/${post.slug.current}`}>
                   <span>
-                    <img src={post.mainImage.asset.url} alt={post.mainImage.alt} />
+                  <h2 className="text-red-600 text-4xl text-center">{post.title}</h2>
+                    <img src={post.mainImage.asset.url} 
+                     onContextMenu={(e) => e.preventDefault()} // 禁用右鍵菜單
+                    alt={post.mainImage.alt} />
                     <span>
-                      <h2>{post.title}</h2>
+                       
                     </span>
                   </span>
                 </Link>

@@ -45,7 +45,10 @@ const SinglePost = () => {
            
         </div>
       </div>
-      <img  src={SinglePost.mainImage.asset.url} alt={SinglePost.title}  className="w-full object-cover rounded-t h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px]"
+      <img  src={SinglePost.mainImage.asset.url}
+       alt={SinglePost.title}  
+       onContextMenu={(e) => e.preventDefault()} // 禁用右鍵菜單
+       className="w-full object-cover rounded-t h-[300px] sm:h-[800px] md:h-[600px] lg:h-[700px] xl:h-[800px]"
       style={{height: "400px"}} />
     </header>
     <div className='px-20 lg:px-40 py-12 bg-neutral-200'>
