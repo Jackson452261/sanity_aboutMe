@@ -38,7 +38,7 @@ const About = () => {
   return (
     <main>
       <Heros />
-      <Skills />
+      
        
       
       <img src={Travel} className="absolute w-full" alt="Travel background" />
