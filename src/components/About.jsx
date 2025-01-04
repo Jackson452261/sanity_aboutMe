@@ -53,7 +53,7 @@ const About = () => {
           )}
           <div className="text-lg flex flex-col justify-center">
             <h2 className="text-5xl text-green-300">
-              Hi~歡迎來到我網站 {" "}
+              Hi~ {" "}
               <span className="text-red-600"></span>
               
             </h2>
