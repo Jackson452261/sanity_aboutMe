@@ -34,7 +34,7 @@ const Post = () => {
               <article key={post.slug.current}>
                 <Link to={`/post/${post.slug.current}`}>
                   <span>
-                  <h2 className="text-red-600 text-4xl">{post.title}</h2>
+                  <h2 className="text-red-600 text-4xl text-center">{post.title}</h2>
                     <img src={post.mainImage.asset.url} 
                      onContextMenu={(e) => e.preventDefault()} // 禁用右鍵菜單
                     alt={post.mainImage.alt} />
